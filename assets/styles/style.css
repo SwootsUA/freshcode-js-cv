@@ -1,0 +1,5 @@
+body {
+    height: 100vh;
+    width: calc(100vh / 1.414); /* Aspect ration of A4 paper */
+    margin: auto;
+}
