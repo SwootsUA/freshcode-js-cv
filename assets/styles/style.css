@@ -1,5 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    height: 100vh;
-    width: calc(100vh / 1.414); /* Aspect ration of A4 paper */
+    width: 50%;
     margin: auto;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+h1, h2, h3 {
+    color: midnightblue;
+    margin: 10px 0;
+}
+
+a {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+address {
+    font-style: normal;
+    margin: 20px 0;
+}
+
+.time {
+    font-size: initial;
+    vertical-align: top;
+    display: inline-block;
+    width: 20%;
+}
+
+.content {
+    font-size: initial;
+    display: inline-block;
+    width: 80%;
+}
+
+.content.skills {
+    margin-left: 20%;
+}
+
+.content.skills ul {
+    list-style: none;
+}
+
+li {
+    padding: 0;
+    margin: 10px 0;
+}
+
+ul {
+    padding: 0 15px;
+    margin: 10px 0;
+}
+
+.no-text {
+    font-size: 0;
+    margin: 10px 0;
 }
