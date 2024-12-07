@@ -39,11 +39,11 @@ address {
     width: 80%;
 }
 
-.content.skills {
+.skills {
     margin-left: 20%;
 }
 
-.content.skills ul {
+.skills ul {
     list-style: none;
 }
 
