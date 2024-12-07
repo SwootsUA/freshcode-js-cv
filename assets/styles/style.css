@@ -21,9 +21,17 @@ a {
     text-decoration: none;
 }
 
+.no-margin {
+    margin: 0;
+}
+
 address {
     font-style: normal;
     margin: 20px 0;
+}
+
+.inline {
+    display: inline;
 }
 
 .bold {
