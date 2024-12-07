@@ -26,6 +26,22 @@ address {
     margin: 20px 0;
 }
 
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* divider that looks like <hr>*/
+.divider {
+    margin: 0.5em 0;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
 .time {
     font-size: initial;
     vertical-align: top;
